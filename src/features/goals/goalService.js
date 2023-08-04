@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 /*const API_URL = '/api/goals/'*/
-const API_URL = 'https://abremernmcga.onrender.com';
+const API_URL = 'https://abremernmcga-api.onrender.com';
 
 const createGoal = async (goalData, token) => {
     const config = {

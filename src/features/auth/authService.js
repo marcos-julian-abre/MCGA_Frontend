@@ -1,7 +1,7 @@
 import axios from 'axios'
 /*
 const API_URL = '/api/users/'*/
-const API_URL = 'https://abremernmcga.onrender.com';
+const API_URL = 'https://abremernmcga-api.onrender.com';
 
 const register = async (userData) => {
     const response = await axios.post(`${API_URL}/api/users/`, userData)
